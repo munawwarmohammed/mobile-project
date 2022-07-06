@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="72sp"
+        android:text="Ordering form"
+        android:background="@color/purple_200"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="77sp"
+        android:layout_marginLeft="15sp"
+        android:hint="firstname"
+        android:inputType="text"
+        tools:ignore="InvalidId"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/last"
+        android:layout_width="match_parent"
+        android:layout_height="77sp"
+        android:inputType="text"
+        android:hint="lastname"
+        tools:ignore="InvalidId"
+        android:layout_marginLeft="15dp"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="77sp"
+        android:inputType="number"
+        android:hint="phone_number"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/cityy"
+        android:layout_width="match_parent"
+        android:layout_height="77sp"
+        android:inputType="text"
+        android:layout_marginLeft="15sp"
+        android:hint="city"
+        android:textSize="20sp"
+         />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:text="Flowers"
+        android:textSize="32dp"/>
+
+    <Spinner
+        android:id="@+id/flower"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginLeft="15sp"
+        android:layout_below="@+id/flower"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Gifts"
+        android:textSize="32dp"
+         />
+
+    <Spinner
+        android:id="@+id/gifty"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/gift"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+         />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginTop="20dp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="28dp"/>
+
+</LinearLayout>

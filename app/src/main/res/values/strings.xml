@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Odering Form</string>
+    <string-array name="flower">
+        <item>white roses</item>
+        <item>red roses</item>
+        <item>yellow roses</item>
+        <item>bouquet</item>
+    </string-array>
+    <string-array name="gift">
+        <item>Birthday</item>
+        <item>office</item>
+        <item>wedding</item>
+        <item>chocolate</item>
+    </string-array>
+</resources>
